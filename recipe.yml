@@ -6,9 +6,11 @@ install:
   - google_tag
   - klaro
   - matomo
+  - menu_link_attributes
   - metatag
   - seo_checklist
   - simple_sitemap
+  - yoast_seo
 
 config:
   strict: false
@@ -16,9 +18,11 @@ config:
     google_tag: '*'
     klaro: '*'
     matomo: '*'
+    menu_link_attributes: '*'
     metatag: '*'
     seo_checklist: '*'
     simple_sitemap: '*'
+    yoast_seo: '*'
 
   actions:
     klaro.settings:
